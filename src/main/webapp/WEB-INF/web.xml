@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>rs</servlet-name>
+<servlet-class>test.RS</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>rs</servlet-name>
+<url-pattern>/rs</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>abc</servlet-name>
+<servlet-class>test.UM</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>abc</servlet-name>
+<url-pattern>/abc</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>UserMark</servlet-name>
+<servlet-class>test.UserMark</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>UserMark</servlet-name>
+<url-pattern>/UserMark</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>Result</servlet-name>
+<servlet-class>test.Result</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>Result</servlet-name>
+<url-pattern>/Result</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>ViewQuestion</servlet-name>
+<servlet-class>test.ViewQuestion</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>ViewQuestion</servlet-name>
+<url-pattern>/ViewQuestion</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>BackWork</servlet-name>
+<servlet-class>test.BackWork</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>BackWork</servlet-name>
+<url-pattern>/xyz</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>user</servlet-name>
+<servlet-class>test.User</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>user</servlet-name>
+<url-pattern>/User</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>ss</servlet-name>
+<servlet-class>test.Submit</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>ss</servlet-name>
+<url-pattern>/submit</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>Logout</servlet-name>
+<servlet-class>test.Submit</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>Logout</servlet-name>
+<url-pattern>/pqr</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>qs</servlet-name>
+<servlet-class>test.QuestionIns</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>qs</servlet-name>
+<url-pattern>/Questionsub</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>qe</servlet-name>
+<servlet-class>test.Question</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>qe</servlet-name>
+<url-pattern>/Question</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>CT</servlet-name>
+<servlet-class>test.CT</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>CT</servlet-name>
+<url-pattern>/ct</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>CreateTest</servlet-name>
+<servlet-class>test.CreateTest</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>CreateTest</servlet-name>
+<url-pattern>/CreateTest</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>ALogin</servlet-name>
+<servlet-class>test.ALogin</servlet-class>
+</servlet>
+ <servlet-mapping>
+<servlet-name>ALogin</servlet-name>
+<url-pattern>/ALogin</url-pattern>
+</servlet-mapping>
+ <welcome-file-list>
+   <welcome-file>Main.html</welcome-file>
+ </welcome-file-list>
+</web-app>
